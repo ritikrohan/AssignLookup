@@ -1,5 +1,5 @@
 const express = require('express');
-const { getValueFromLookup } = require('./data/lookup');
+const { getValueFromLookup } = require('./lookup');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
